@@ -47,20 +47,20 @@ def renderImage():
 
 # Assumes that the dictionary is sorted the way we want it.
 # TODO:  Sort entries here.
-def buildmapUsing(dict):
+def buildmapUsing(thisdict):
     counter = 0
-    for item in dict:
+    for item in thisdict:
         # The kmap will allow us to walk down the columns
         kmap[item] = counter
         counter += 1
 
     # Populates the array.
-    arraylen = len(dict)
-    for item in dict:
+    arraylen = len(thisdict)
+    for item in thisdict:
         # Makes arrays for each row
         newrow = bytearray(arraylen)
         # Populate the row
-        ks = dict[item]
+        ks = thisdict[item]
         for device in ks:
             try:
                 newrow[kmap[device]] = 1  
