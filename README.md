@@ -16,9 +16,9 @@ This program then downloads the available summary files from the FDA 510(K) data
 
 
 ---------------
-python predocr.py <Knumber> [outputOCRname]
+python predocr.py [Knumber] [outputOCRname]
 
-<summary>: mandatory pdf file to be processed.  The file name should be the K-number, per FDA common practice.  i.e. K123456.pdf contains the summary for device K123456.
+[summary]: mandatory pdf file to be processed.  The file name should be the K-number, per FDA common practice.  i.e. K123456.pdf contains the summary for device K123456.
 
 [outputOCR] optional file to hold the output of the OCR process.  If ommited, a filename with the K-number, appended with ".ocr.txt" will be generated.
 
