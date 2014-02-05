@@ -47,6 +47,8 @@ def do_ocr(inputfile, outputfile):
     "  cat tempoutput.txt >> $OUTPUT\n" +
     "done")
 
+  return 0
+
 
 
 # Finds the predicates
@@ -57,6 +59,8 @@ def find_predicate(outputocr, myKnumber):
   #will be written into predFILE
   #suspicious Knumbers (the six characters following a "K" contain more than 3 digits)
   #will be written into susFILE
+
+  print "Searching for K numbers in file: ", outputocr
   sumfile = open(outputocr)
 
   Knumbers = Set()
@@ -66,6 +70,7 @@ def find_predicate(outputocr, myKnumber):
   for line in sumfile:
     if line[0:4] != "Re: ":
       #printline = 0
+      indepthInspectionFlag = 0
       manualInspectionFlag = 0
 
       # Looks for the K number of this device first on the line from the FDA reply
@@ -79,10 +84,12 @@ def find_predicate(outputocr, myKnumber):
           num_digits = len(re.findall(r"\d", rawKstring))
 
           # We didn't get 6 digits
-          # Pocess anyway, but flag for manual inspection.
+          # Pocess anyway, but flag for in-depth inspection by the program.
           if num_digits >= 3 and num_digits <= 5:
             #printlinetemp = 1
-            manualInspectionFlag = 1
+            indepthInspectionFlag = 1
+
+            # First attempt to grab the K number
             if num_digits == 5 and (rawKstring[0] == 'K' or rawKstring[0] == 'k'):
               # Check for opening brackets and possible mis-ocr 
               # ([dfk] I think this is what's happening)
@@ -93,20 +100,29 @@ def find_predicate(outputocr, myKnumber):
                 rawKstring = rawKstring.replace("i", "")
                 rawKstring = rawKstring.replace("I", "")
                 rawKstring = "".join(rawKstring.split()) + matchO.string[matchO.end()]
-                if rawKstring.upper() != device:
+
+                # Check that the K number that we found is not our own.
+                if rawKstring.upper() != myKnumber:
+                  # We found a good predicate
+                  # accumulate in the current set of K numbers
                   Knumbers.add(rawKstring.upper())  
                 # We were able to resolve the issue automatically, 
                 # remove the manual check flag.
-                manualInspectionFlag = 0
-            if printlinetemp == 1:
+                indepthInspectionFlag = 0
+
+            # Second atttempt to grab the K number
+            # The K string is pretty mangled.
+            if indepthInspectionFlag == 1:
               notsusp = rawKstring.find(r"[Kk]", 1)
               while not notsusp == -1:
                 if re.match(r"(?:\s*\d){6}", line[notsusp + idx :]) != None:
                   printlinetemp = 0
                 notsusp = rawKstring.find(r"[Kk]", notsusp+1)
   
-            if printlinetemp == 1:
-              printline = 1
+            # The program has not been able to resolve the issues by itself
+            # Flags for manual inspection
+            if indepthInspectionFlag == 1:
+              manualInspectionFlag = 1
 
           # We got 6 digits, which is the expected outcome
           # We only need to clean up the string
@@ -115,27 +131,32 @@ def find_predicate(outputocr, myKnumber):
             rawKstring = rawKstring.replace(")", "")
             rawKstring = rawKstring.replace(".", "")
             rawKstring = "".join(rawKstring.split())
-            if rawKstring.upper() != device:
-              if sum(rawKstring[i] != device[i] for i in range(1, 6)) != 1:
+            if rawKstring.upper() != myKnumber:
+              if sum(rawKstring[i] != myKnumber[i] for i in range(1, 6)) != 1:
+                # We found a good K number
+                # Accumulate in the set of k numbers.
                 Knumbers.add(rawKstring.upper())
               else:
-                printline = 1
+                # Something is not right
+                # Flag for human eyes
+                manualInspectionFlag = 1
 
           # TODO: Corner case where we have more than 6 digits
           # one of them is probably a misinterpreted character.  Flag for manual inspection.
 
-      if printline == 1:
-        SUSfile.write(line)
+      if manualInspectionFlag == 1:
+        #SUSfile.write(line)
+        print "TODO: ", line 
 
-  TREEfile.write(device + ': ')
   if(len(Knumbers) == 0):
-    TREEfile.write("Predicates not found")
+    print "Predicates not found"
   else:
-    for Knumber in Knumbers:
-      TREEfile.write(Knumber + " ")
-  TREEfile.write('\n')
+    print "Predicates of ", myKnumber, ":"
+    for predicate in Knumbers:
+      print predicate
 
   sumfile.close()
+  return 0
 
 
 def main(argv=None):
@@ -177,7 +198,7 @@ def main(argv=None):
     
   reterr = find_predicate(outputocr, myKstring) 
   if reterr != 0:
-    exit(0)
+   exit(0)
 
   # TODO: cleanup if any
 
