@@ -1,0 +1,2 @@
+#!/bin/sh
+iconv -c -f UTF-8 -t ascii ${1+"$@"} | tr a-z A-Z | sed -E  -e 's/[CO]/0/' -e 's/[LI]/1/g' -e 's/Z/2/' -e 's/S/5/' -e 's/K[. -]*([0-9]{6})/K\1/'|tr -s ' -().:' '\n'|grep 'K[0-9][0-9][0-9][0-9][0-9][0-9]' | tr -cds K0-9'\n' '\n'| sed '/^$/d' | sort -u
