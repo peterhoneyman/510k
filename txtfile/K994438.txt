@@ -1,0 +1,258 @@
+\U~‘1‘7'~M5 8’
+FEB 0 2000
+510(k) Premarket Notiﬁcation Summary
+  for
+SpectRx BiliChek Non-Invasive Bilirubin Analyzer
+
+1. SPONSOR
+SpectRx, Inc.
+6025A Unity Drive
+Norcross GA 30071
+Contact Person: Mr. Keith D. Ignotz
+
+‘ Telephone: 770-242-8723
+Date Prepared: December 29, 1999
+
+2. DEVICE NAME
+Proprietary Name: BiliChek Non-inVasiVe Bilirubin Analyzer
+Common/Usual Name: Non-invasive bilirubin analyzer
+Classiﬁcation Name: Bilirubin (total and unbound) in the neonate test system
+
+(21 CFR 862.1113)
+
+3. PREDICATE DEVICES
+Respironics BiliChek Non-invasive Bilirubin Analyzer (K98307 1) A
+Chromatics III (K964590)
+Leica Unistat Bilirubinometer (K922770). I
+
+4. DEVICE DESCRIPTION
+The Bilichek consists of the BiliChek hand-held unit, the BiliCal Individual
+calibration tips, a charger base, and rechargeable battery packs. The BiliChek
+hand-held unit contains a light source, a ﬁberoptic probe, a microspectrometer,
+and a microprocessor control circuit within an 8.5 x 2x 4 inch assembly.
+
+I The hand-held unit is battery powered and is controlled by an internal
+microprocessor. Operator interface with the microprocessor is achieved through
+three buttons and a liquid crystal display (LCD). The buttons are used to select
+different set-up options. The measurement is initiated when the operator presses
+
+SpectRx 510(k) 127/29/99 CONFIDENTIAL .
+BiliChek Non-Invasive Bilirubin Analyzer Page F—1
+
+the Trigger button on the bottom of the unit. The LCD window on the device
+displays the calculated bilirubin value, date and time, battery status, and permits
+the unit set-up parameters to be programmed.
+The BiliCal disposable tips protect the ﬁber-optic probe, ensure a hygienic contact
+with the patient, provide a means for calibration of the BiliChek, and serve as a ,
+positioning aid. The disposable tip includes a removable target with calibration
+material which is used in the initial calibration of the device prior to use on each
+patient. Before a measurement is taken, the BiliChek runs a baseline reference
+calibration scan which measures the removable target on the tip. After calibration,
+the target is removed from the tip to expose an optically clear window through
+which measurements are made. Sensors in the BiliChek detect when the tip is
+_ correctly installed and the depression of the tip under pressure when it is applied
+to the patient.
+Two rechargeable nickel-cadmium battery packs are supplied with the system.
+The battery pack is inserted in the bottom of the BiliChek Hand-held Unit. The
+BiliChek Hand-Held Unit includes status indicators which indicate if the battery
+is low or dead. When fully charged, each battery pack provides sufficient power
+to conduct 100 measurements. The Bilichek battery charger includes two charging
+wells, one for the Bilichek and the other for the spare battery pack. The charger is
+provided power from a 110 volt power supply.
+5. INTENDED USE
+The Bilichek Non-Invasive Bilirubin Analyzer is a computer assisted non-
+invasive transcutaneous bilirubinometer which is intended as an index to predict
+serum bilirubin levels in neonates less than eight days old, without regard to
+a. gender, gestational age, race, or bodyweight. The Bilichek provides a numerical
+measurement of predicted bilirubin count in mg/dL within a clinically beneﬁcial
+range that has been correlated with total serum bilirubin concentration measured
+by High Pressure Liquid Chromatography (HPLC). The device is used in the
+hospital or institutional environment to assist clinicians in monitoring the status of
+neonates for the development of hyperbilirubinemia. Neonates whose Bilichek
+test results are indicative of hyperbilirubinemia are evaluated by their physician(s)
+s for appropriate patient management
+"  .
+BiliChek Non-Invasive Bilirubin Analyzer Page F-2
+
+6. TECHNOLOGICAL CHARACTERISTICS AND SUBSTANTIAL EQuIv.xLENCE
+
+The SpectRx BiliChek Noninvasive Bilirubin Analyzer is identical to the
+
+Respironics BiliChek Noninvasive Bilirubin Analyzer which was cleared by FDA
+
+under 510(k) K98307l. There are no technological differences between the
+
+devices since they are identical.
+
+The BiliChek is substantially equivalent to the Chromatics Color Sciences
+
+International Colormate III (K964590) and to the Unistat Bilirubinometer
+
+(K922770). All of these devices have similar intended uses and technological
+
+characteristics. Each device measures the presence of hyperbilirubinemia in
+
+neonates, and each device bases its measurements on the absorbance
+_ characteristics of bilirubin in the visible spectrum.
+  7. PERFORMANCE TESTING
+
+Testing of the SpectRx BiliChek included the following:
+
+a. Biocompatibility: Materials used in the BiliChek were tested for
+biocompatibility and shown to be safe for use on intact skin.
+
+b. Electrical safety testing. The BiliChek System was tested for compliance with
+IEC 601-1. The results show that the device complies with the requirements of
+IEC 601-l.
+
+c. Electronic hardware testing: Functional testing of the printed circuit boards for
+the main board and charger board was performed and demonstrated that these
+boards meet their respective performance speciﬁcations.
+
+d. BiliChek Battery and Temperature Testing: These tests veriﬁed that the
+
+. BiliChek battery pack will operate the BiliChek for at least 100
+measurements. In addition, the tests verified that the BiliChek meets
+speciﬁcations for operating over the specified temperature range of +5°C to
++40°C.
+
+e. Calibration Material Stability: The calibration material was exposed to
+elevated temperature for an extended period of time to simulate exposure to
+extreme enviromnental conditions and to accelerate aging. The material was
+found to be stable over the tested temperature range.
+
+f. EMI/EMC Testing: Immunity and emissions testing was performed and
+demonstrates that the BiliChek System complies with the requirements of IEC
+601-1-2 for immunity and ENSSOI 1 for emissions.
+
+SpectRx 510(k) 12/29/99 Comosmtar _
+BiliChek Non-Invasive Bilirubin Analyzer Page F-3
+
+g. Software testing: The software/firmware used in the BiliChek was tested in
+
+accordance with the software test plan and demonstrates that the software
+T program meets the performance specifications.
+
+h. Clinical testing: Clinical testing of the BiliChek was conducted to demonstrate
+the ability of the BiliChek device to non-invasively measure the bilirubin
+levels of infants less than eight days old prior to the use of phototherapy or
+any related therapeutic intervention. Bilirubin values measured by HPLC and
+with the BiliChek were compared to determine the accuracy of the BiliChek.
+The test results demonstrate a statistically and clinically signiﬁcant correlation
+between the BiliChek and serum bilirubin levels as indicated by HPLC. There
+were no signiﬁcant differences in the performance of the BiliChek attributed
+to race, sex, gestational age at delivery, bodyweight, or presence in the NICU.
+
+- There were no injuries or deaths that occurred while the device was being
+used or any adverse effects reported from use of the device.
+ 
+p BiliChek Non-Invasive Bilirubin Analyzer Page F-4 '
+
+5: -/C& DEPARTMENT o1= HEALTH 31. HUMAN SERVICES
+blrirk Food and Drug Administration
+2098 Gaither Road
+Rockville MD 20850
+FEB 21 2800
+
+Mr. James R. Veale
+
+Vice President, Regulatory Services
+
+Medical Device Consultants, Inc.
+
+49 Plain Street
+
+North Attleboro, Massachusetts 02760
+
+Re: K994438
+
+I Trade Name: BiliChek Non-Invasive Bilirubin Analyzer
+Regulatory Class: I reserved
+Product Code: MQM
+Dated: December 29, 1999
+Received: December 30, 1999
+
+Dear Mr. Veale:
+
+We have reviewed your Section 510(k) notiﬁcation of intent to market the device referenced
+above and we have detennined the device is substantially equivalent (for the indications for use
+stated in the enclosure) to legally marketed predicate devices marketed in interstate commerce
+prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to devices that
+have been reclassiﬁed in accordance with the provisions of the Federal Food, Drug, and
+Cosmetic Act (Act). You may, therefore, market the device, subject to the general controls
+provisions of the Act. The general controls provisions of the Act include requirements for annual
+registration, listing of devices, good manufacturing practice, labeling, and prohibitions against
+misbranding and adulteration.
+
+If your device is classiﬁed (see above) into either class II (Special Controls) or class III
+(Premarket Approval), it may be subject to such additional controls. Existing major regulations
+affecting your device can be found in the Code of Federal Reulations, Title 21, Parts 800 to 895.
+
+A substantially equivalent determination assumes compliance with the Current Good
+
+Manufacturing Practice requirements, as set forth in the Quality System Regulation (QS) for
+Medical Devices: General regulation (21 CFR Part 820) and that, through periodic QS
+inspections, the Food and Drug Administration (FDA) will verify such assumptions. Failure to
+comply with the GMP regulation may result in regulatory action. In addition, FDA may publish
+further announcements concerning your device in the Federal Reister. Please note: this
+response to your premarket notiﬁcation submission does not affect any obligation you might
+have under sections 531 through 542 of the Act for devices under the Electronic Product
+Radiation Control provisions, or other Federal laws or regulations.
+
+Page 2
+This letter will allow you to begin marketing your device as described in your 510(k) premarket
+notiﬁcation. The FDA ﬁnding of substantial equivalence of your device to a legally marketed
+predicate device results in a classiﬁcation for your device and thus, permits your device to
+proceed to the market.
+If you desire speciﬁc advice for your device on our labeling regulation (21 CFR Part 801 and
+. additionally 809.10 for in vitro diagnostic devices), please contact the Ofﬁce of Compliance at
+(301) 594-4588. Additionally, for questions on the promotion and advertising of your device,
+please contact the Ofﬁce of Compliance at (301) 594-4639. Also, please note the regulation
+entitled, "Misbranding by reference to premarket notiﬁcation" (21CFR 807.97). Other general
+information on your responsibilities under the Act may be obtained from the Division of Small
+0 Manufacturers Assistance at its toll-free number (800) 638-2041 or (301) 443-6597 or at its
+internet address “http://www.fda.gov/cdrh/dsma/dsmamainhtml". -
+Sincerely yours,
+Steven 1. Gutman, M.D., M.B.A.
+Director
+Division of Clinical Laboratory Devices
+Ofﬁce of Device Evaluation
+Center for Devices and Radiological Health
+Enclosure
+
+51002) Numher  lznown): K   
+1 Device Name: Bilichelz, Non-Invasive Biliruhin Analyzer
+
+Indications For Use: A
+
+The Bi1iChe12 Non-Invasive Biliruhin Analyzer is a computer assisted non-invasive
+transcutaneous hiliruhinometer which is intended as an index to predict serum 1)i1iru1)in
+levels in neonates less than eight days old, without regard to gender, gestational age, race,
+or hodyweight. The Bilichelz provides a numerical measurement ot predicted hiliruhin
+count in mg/dL within a clinically laeneticial range that has heen correlated with total
+
+a serum hiliruhin Concentration measured hy High Performance Liquid Chromatography
+
+(HPLC). The device is used in the hospital or institutional environment to assist
+clinicians in monitoring the status of neonates tor the development oi hyper1)i1iru1)inemia.
+Neonates whose Bi1iChe12 test results are indicative ot hyperlsiliruhinemia are evaluated 13y 1
+their p1-xysician(s) for appropriate patient management.
+
+(PLEASE DO NOT WRITE BELOW THIS LINE - CONTINUE ON ANOTHER
+
+PAGE IF NECESSARY)
+Concurrence ot CDRH, Ottice of Device Evaluation (ODE)
+ -9 «— C«=—,uA
+Division of Clinical Laboratory " °
+1.; av: -
+5100‘) Number 
+
+Prescription Use  O13 Over-The-Counter Use
+
+(Per 21 CPR 801.109)
+
+(Optional Fomiat 1-2-96)
+
+SpectRx 510(k) 12/29/99 ""1""
+BiliChek Non-Invasive Bilirubin Analyzer Page vi
+
